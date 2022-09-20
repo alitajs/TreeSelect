@@ -1,0 +1,36 @@
+{
+  "name": "treeselect4m",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm//index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alitajs/TreeSelect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alitajs/TreeSelect/issues"
+  },
+  "homepage": "https://github.com/alitajs/TreeSelect#readme",
+  "dependencies": {
+    "antd-mobile": "^5.22.0",
+    "@alita/flow": "3.0.3",
+    "antd-mobile-icons": "^0.3.0"
+  },
+  "devDependencies": {
+    "father": "4.0.0-rc.10"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
